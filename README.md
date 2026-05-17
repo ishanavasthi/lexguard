@@ -1,18 +1,18 @@
 # LexGuard
 
-AI-powered contract intelligence. Upload a PDF or DOCX legal document, get a plain-English breakdown of every clause with risk scores, red flags, real-world impact, and negotiation tips.
+AI-powered contract intelligence. Upload a PDF, DOCX, or TXT legal document, get a plain-English breakdown of every clause with risk scores, red flags, real-world impact, and negotiation tips.
 
 ## Live Demo
 
-- **App:** _TODO: paste Cloud Run frontend URL here after deploy_
-- **API:** _TODO: paste Cloud Run backend URL here after deploy_
+- **App:** _TODO_
+- **API:** _TODO_
 - **Repo:** https://github.com/ishanavasthi/lexguard
 
 Try the **"Try with a sample contract"** button on the landing page to skip the upload step.
 
 ## Features
 
-- Upload PDF or DOCX contracts (max 10 MB)
+- Upload PDF, DOCX, or TXT contracts (max 10 MB)
 - Two-pass Gemini analysis: clause extraction + adversarial risk scoring
 - 9 clause categories: `NON_COMPETE`, `IP_TRANSFER`, `ARBITRATION`, `LIABILITY`, `TERMINATION`, `DATA_PRIVACY`, `PAYMENT`, `AUTO_RENEWAL`, `OTHER`
 - Overall risk gauge (0 to 10) with HIGH / MEDIUM / LOW band
@@ -49,7 +49,7 @@ Try the **"Try with a sample contract"** button on the landing page to skip the 
 
 ```
 +----------------+        multipart/form-data        +----------------+
-|                |  POST /analyze (PDF or DOCX)      |                |
+|                |  POST /analyze (PDF/DOCX/TXT)     |                |
 |  Next.js UI    | --------------------------------> |  FastAPI       |
 |  (port 3000)   |                                   |  (port 8000)   |
 |                | <-- AnalysisResponse JSON ------- |                |
@@ -113,7 +113,7 @@ Open http://localhost:3000.
 
 ### 4. Demo flow
 
-1. Click **Try with a sample contract** (or drag in your own PDF/DOCX)
+1. Click **Try with a sample contract** (or drag in your own PDF, DOCX, or TXT)
 2. Wait 15 to 30 seconds while two Gemini calls run
 3. Results dashboard shows the overall risk gauge, summary chips, and per-clause cards
 
@@ -147,7 +147,7 @@ Open http://localhost:3000.
 | ---- | ------------------------------------------- |
 | 400  | Empty file                                  |
 | 413  | File exceeds 10 MB                          |
-| 415  | Unsupported format (only PDF or DOCX)       |
+| 415  | Unsupported format (only PDF, DOCX, or TXT) |
 | 422  | Document parsed but no extractable text     |
 | 500  | Backend misconfigured (missing API key)     |
 | 502  | Model returned malformed JSON or off-schema |

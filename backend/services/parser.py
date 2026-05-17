@@ -25,12 +25,21 @@ def extract_docx(data: bytes) -> str:
     return "\n".join(p.text for p in doc.paragraphs).strip()
 
 
+def extract_txt(data: bytes) -> str:
+    try:
+        return data.decode("utf-8").strip()
+    except UnicodeDecodeError:
+        return data.decode("utf-8", errors="ignore").strip()
+
+
 def extract_text(data: bytes, filename: str) -> str:
     name = filename.lower()
     if name.endswith(".pdf"):
         text = extract_pdf(data)
     elif name.endswith(".docx"):
         text = extract_docx(data)
+    elif name.endswith(".txt"):
+        text = extract_txt(data)
     else:
         raise UnsupportedFormatError(f"Unsupported file: {filename}")
     if not text:

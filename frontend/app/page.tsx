@@ -18,7 +18,7 @@ function mapError(e: unknown): string {
       case 413:
         return "File too large (max 10MB).";
       case 415:
-        return "Only PDF or DOCX files are supported.";
+        return "Only PDF, DOCX, or TXT files are supported.";
       case 422:
         return "Could not extract text from this document.";
       case 502:
@@ -76,7 +76,7 @@ export default function Home() {
         )}
 
         <p className="mt-12 text-xs text-slate-500 dark:text-zinc-500">
-          PDF or DOCX, max 10MB. Files are analyzed in memory and never stored.
+          PDF, DOCX, or TXT, max 10MB. Files are analyzed in memory and never stored.
         </p>
       </div>
     </main>

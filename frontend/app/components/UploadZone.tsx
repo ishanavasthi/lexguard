@@ -11,7 +11,7 @@ interface Props {
   onFile: (file: File) => void;
 }
 
-const ACCEPTED = [".pdf", ".docx"];
+const ACCEPTED = [".pdf", ".docx", ".txt"];
 
 function isAccepted(name: string): boolean {
   const lower = name.toLowerCase();
@@ -26,7 +26,7 @@ export function UploadZone({ onFile }: Props) {
 
   function pick(file: File) {
     if (!isAccepted(file.name)) {
-      setLocalError("Only PDF or DOCX files are supported.");
+      setLocalError("Only PDF, DOCX, or TXT files are supported.");
       return;
     }
     setLocalError(null);
@@ -75,12 +75,12 @@ export function UploadZone({ onFile }: Props) {
           Drag a contract here, or click to browse
         </p>
         <p className="mt-1 text-sm text-slate-500 dark:text-zinc-400">
-          PDF or DOCX, up to 10MB
+          PDF, DOCX, or TXT, up to 10MB
         </p>
         <input
           ref={inputRef}
           type="file"
-          accept=".pdf,.docx"
+          accept=".pdf,.docx,.txt"
           className="hidden"
           onChange={(e) => {
             const file = e.target.files?.[0];
