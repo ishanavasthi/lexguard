@@ -11,3 +11,9 @@ __pycache__/
 *$py.class
 
 frontend\node_modules
+
+# Local env (contains GEMINI_API_KEY)
+.env
+.env.local
+*/.env
+*/.env.local

@@ -156,14 +156,23 @@ See [backend/sample_response.json](backend/sample_response.json) for a full exam
 
 ## Docker
 
-### Backend
+### Both services (recommended)
+
+```bash
+cp .env.example .env       # then edit .env and set GEMINI_API_KEY
+docker compose up --build
+```
+
+Frontend served at http://localhost:3000, backend at http://localhost:8000.
+
+### Backend only
 
 ```bash
 docker build -t lexguard-backend ./backend
 docker run -p 8000:8000 -e GEMINI_API_KEY=$GEMINI_API_KEY lexguard-backend
 ```
 
-### Frontend
+### Frontend only
 
 ```bash
 docker build \
