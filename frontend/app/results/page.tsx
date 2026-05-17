@@ -2,7 +2,7 @@
 
 import { useEffect, useState } from "react";
 import { useRouter } from "next/navigation";
-import { ArrowLeft, ShieldAlert } from "lucide-react";
+import { ArrowLeft } from "lucide-react";
 
 import { ClauseCard } from "@/app/components/ClauseCard";
 import { RiskGauge } from "@/app/components/RiskGauge";
@@ -36,26 +36,21 @@ export default function ResultsPage() {
   }
 
   return (
-    <main className="min-h-screen bg-slate-50 px-4 py-10">
+    <main className="min-h-[calc(100vh-3.5rem)] bg-slate-50 px-4 py-10 transition-colors dark:bg-black">
       <div className="mx-auto max-w-4xl space-y-6">
-        <header className="flex flex-wrap items-center justify-between gap-3">
-          <div className="flex items-center gap-2 text-primary">
-            <ShieldAlert className="h-6 w-6" />
-            <span className="text-xl font-bold tracking-tight">LexGuard</span>
+        <div className="flex flex-wrap items-end justify-between gap-3">
+          <div>
+            <h1 className="text-3xl font-bold tracking-tight text-slate-900 dark:text-white">
+              Analysis Results
+            </h1>
+            <p className="mt-1 text-sm text-slate-600 dark:text-zinc-300">
+              Clauses sorted by risk score, highest first.
+            </p>
           </div>
           <Button variant="outline" onClick={analyzeAnother}>
             <ArrowLeft className="mr-2 h-4 w-4" />
             Analyze another
           </Button>
-        </header>
-
-        <div>
-          <h1 className="text-3xl font-bold tracking-tight text-slate-900">
-            Analysis Results
-          </h1>
-          <p className="mt-1 text-sm text-slate-600">
-            Clauses sorted by risk score, highest first.
-          </p>
         </div>
 
         <RiskGauge
@@ -66,7 +61,7 @@ export default function ResultsPage() {
         <SummaryStats type={data.contract_type} count={data.clause_count} />
 
         <section className="space-y-4">
-          <h2 className="text-xl font-semibold text-slate-900">
+          <h2 className="text-xl font-semibold text-slate-900 dark:text-white">
             Clause Breakdown
           </h2>
           {sortedClauses.map((c) => (
@@ -74,7 +69,7 @@ export default function ResultsPage() {
           ))}
         </section>
 
-        <footer className="pb-8 pt-6 text-center text-xs text-slate-500">
+        <footer className="pb-8 pt-6 text-center text-xs text-slate-500 dark:text-zinc-500">
           LexGuard provides informational analysis only and is not a substitute
           for legal advice.
         </footer>

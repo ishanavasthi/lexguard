@@ -64,17 +64,19 @@ export function UploadZone({ onFile }: Props) {
         onDrop={onDrop}
         onClick={() => inputRef.current?.click()}
         className={cn(
-          "flex cursor-pointer flex-col items-center justify-center rounded-lg border-2 border-dashed bg-white px-6 py-12 transition-colors",
+          "flex cursor-pointer flex-col items-center justify-center rounded-lg border-2 border-dashed bg-white px-6 py-12 transition-colors dark:bg-zinc-900",
           dragging
-            ? "border-primary bg-primary/5"
-            : "border-slate-300 hover:border-slate-400"
+            ? "border-primary bg-primary/5 dark:border-white dark:bg-white/5"
+            : "border-slate-300 hover:border-slate-400 dark:border-zinc-800 dark:hover:border-zinc-700"
         )}
       >
-        <Upload className="mb-3 h-10 w-10 text-slate-400" />
-        <p className="text-base font-medium text-slate-700">
+        <Upload className="mb-3 h-10 w-10 text-slate-400 dark:text-zinc-500" />
+        <p className="text-base font-medium text-slate-700 dark:text-zinc-200">
           Drag a contract here, or click to browse
         </p>
-        <p className="mt-1 text-sm text-slate-500">PDF or DOCX, up to 10MB</p>
+        <p className="mt-1 text-sm text-slate-500 dark:text-zinc-400">
+          PDF or DOCX, up to 10MB
+        </p>
         <input
           ref={inputRef}
           type="file"
@@ -88,16 +90,16 @@ export function UploadZone({ onFile }: Props) {
         />
       </div>
 
-      <div className="flex items-center justify-center gap-3 text-sm text-slate-500">
-        <span className="h-px flex-1 bg-slate-200" />
+      <div className="flex items-center justify-center gap-3 text-sm text-slate-500 dark:text-zinc-500">
+        <span className="h-px flex-1 bg-slate-200 dark:bg-zinc-800" />
         <span>or</span>
-        <span className="h-px flex-1 bg-slate-200" />
+        <span className="h-px flex-1 bg-slate-200 dark:bg-zinc-800" />
       </div>
 
       <Button
         type="button"
         variant="outline"
-        className="w-full"
+        className="w-full dark:border-zinc-800 dark:bg-zinc-900 dark:text-zinc-200 dark:hover:bg-zinc-800 dark:hover:text-white"
         onClick={onSample}
         disabled={loadingSample}
       >

@@ -2,7 +2,6 @@
 
 import { useState } from "react";
 import { useRouter } from "next/navigation";
-import { ShieldAlert } from "lucide-react";
 
 import { LoadingState } from "@/app/components/LoadingState";
 import { UploadZone } from "@/app/components/UploadZone";
@@ -23,7 +22,7 @@ function mapError(e: unknown): string {
       case 422:
         return "Could not extract text from this document.";
       case 502:
-        return "Analysis failed — please retry.";
+        return "Analysis failed - please retry.";
       default:
         return `Request failed (HTTP ${e.status}).`;
     }
@@ -53,18 +52,14 @@ export default function Home() {
   if (status === "loading") return <LoadingState />;
 
   return (
-    <main className="min-h-screen bg-gradient-to-b from-slate-50 to-slate-100 px-4 py-16">
+    <main className="min-h-[calc(100vh-3.5rem)] bg-gradient-to-b from-slate-50 to-slate-100 px-4 py-16 transition-colors dark:from-black dark:to-black">
       <div className="mx-auto flex max-w-2xl flex-col items-center text-center">
-        <div className="mb-4 flex items-center gap-2 text-primary">
-          <ShieldAlert className="h-8 w-8" />
-          <span className="text-2xl font-bold tracking-tight">LexGuard</span>
-        </div>
-        <h1 className="text-4xl font-bold tracking-tight text-slate-900 sm:text-5xl">
+        <h1 className="text-4xl font-bold tracking-tight text-slate-900 dark:text-white sm:text-5xl">
           Know what you&apos;re signing.
         </h1>
-        <p className="mt-4 max-w-xl text-lg text-slate-600">
+        <p className="mt-4 max-w-xl text-lg text-slate-600 dark:text-zinc-300">
           Upload a contract. Get a plain-English risk breakdown of every clause
-          — red flags, real-world impact, and negotiation tips.
+          - red flags, real-world impact, and negotiation tips.
         </p>
 
         <div className="mt-10 w-full">
@@ -80,7 +75,7 @@ export default function Home() {
           </div>
         )}
 
-        <p className="mt-12 text-xs text-slate-500">
+        <p className="mt-12 text-xs text-slate-500 dark:text-zinc-500">
           PDF or DOCX, max 10MB. Files are analyzed in memory and never stored.
         </p>
       </div>
