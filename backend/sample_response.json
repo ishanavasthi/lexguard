@@ -1,0 +1,379 @@
+{
+   "contract_type":"Professional Services Agreement",
+   "overall_risk_score":5.1,
+   "overall_risk_level":"MEDIUM",
+   "clause_count":{
+      "high":6,
+      "medium":11,
+      "low":7
+   },
+   "clauses":[
+      {
+         "id":"clause_1",
+         "risk_level":"MEDIUM",
+         "risk_score":5,
+         "plain_english":"You agree to use your special skills to deliver specific results outlined in Exhibit A, and the Commission must find your work 'reasonably satisfactory'. You must also provide specific key personnel and cannot replace them or change their roles without the Commission's written approval, which they should not unreasonably deny. You're also required to submit detailed progress reports with every invoice and meet with the Commission's manager 'as needed'.",
+         "red_flags":[
+            "Subjectivity of 'reasonably satisfactory' opens the door for disputes.",
+            "Commission's control over your key personnel limits your operational flexibility and staffing decisions.",
+            "Mandatory detailed progress reports with every invoice add a significant administrative burden and can be a point of failure for payments (linked to Clause 2.E)."
+         ],
+         "what_it_means_for_you":"You must meticulously document all progress and results to meet subjective 'satisfaction' criteria. Your ability to manage your team is constrained by the Commission's approval process, potentially delaying project execution or increasing costs if a key person leaves. Failure to meet reporting requirements could lead to delayed payments or even termination.",
+         "negotiation_tip":"Seek clearer definitions or objective metrics for 'reasonably satisfactory' results, or establish a clear process for approval/acceptance of deliverables.",
+         "title":"Duties of Consultant",
+         "category":"OTHER",
+         "original_text":"1. DUTIES.\nA. CONSULTANT agrees to exercise special skill to accomplish the following results in a manner reasonably satisfactory to COMMISSION: ______________________________, as specified in Exhibit A: Scope of Services, which by this reference is incorporated herein.\nB. CONSULTANT shall provide the personnel listed below to perform the above-specified services, which persons are hereby designated as key personnel under this Agreement.\nName\nFirm\nFunction\nPrincipal in Charge\nProject Manager\nC. No person named in paragraph B of this Section, or his or her successor, shall be removed or replaced by CONSULTANT, nor shall his or her agreed-upon function hereunder be changed, without the prior written consent of COMMISSION. Such consent shall not be unreasonably withheld.\nD. CONSULTANT’S PROGRESS REPORTS AND/OR MEETINGS\n1) The CONSULTANT shall submit written progress reports with each invoice. The report should be sufficiently detailed for the Contract Manager to determine if the CONSULTANT is performing to expectations or is on schedule; to provide communication of interim findings; and to sufficiently address any difficulties or special problems encountered, so remedies can be developed.\n2) The CONSULTANT’s Project Manager shall meet with the COMMISSION’s Contract Manager, as needed, to discuss progress on the contract."
+      },
+      {
+         "id":"clause_2",
+         "risk_level":"HIGH",
+         "risk_score":8,
+         "plain_english":"The total payment you receive will not exceed a specific amount for your time and materials, based on rates in Exhibit B. Your overhead and travel costs are capped. All reimbursable expenses need the Contract Manager's approval before payment. You'll be paid monthly, after the work is done (in arrears), only for satisfactory services and approved costs. If you miss deadlines for deliverables or reports, the Commission can delay payment or even terminate the contract. No payment will be made for work done before the contract is fully approved, or for exceeding milestone costs without prior written approval. You must submit very detailed invoices within 45 days of performing the work, and a final invoice within 60 days of work acceptance. Some increases in prevailing wage rates are reimbursable.",
+         "red_flags":[
+            "Total payment 'not to exceed' is a hard cap, putting all cost overrun risk on you.",
+            "Payments are 'in arrears' and contingent on 'satisfactory services' and 'approval of the Contract Manager', creating potential for payment delays and subjective withholding.",
+            "The Commission's unilateral right to 'delay payment and/or terminate' for missed deliverables or reports (even progress reports from Clause 1.D) is a severe penalty.",
+            "Strict 45-day deadline for invoice submission means losing payment if missed, and 60-day deadline for final invoice.",
+            "Requires itemized invoices with extensive details, increasing administrative burden and potential for errors leading to payment delays."
+         ],
+         "what_it_means_for_you":"You carry the financial risk of project overruns. You could perform work and face significant delays in payment or even non-payment if the Commission deems services 'unsatisfactory' or if you miss any stringent reporting or invoicing deadlines. The administrative overhead for detailed invoicing and reporting will be substantial. You must strictly adhere to all deadlines to ensure payment.",
+         "negotiation_tip":"Request a clear definition of 'satisfactory services' and a more robust, independent dispute resolution process for payment delays, rather than allowing the Commission to unilaterally delay payment or terminate. Also, negotiate for a longer invoice submission window (e.g., 60-90 days).",
+         "title":"Compensation and Invoicing",
+         "category":"PAYMENT",
+         "original_text":"2. COMPENSATION.\nIn consideration for CONSULTANT accomplishing said result, COMMISSION agrees to pay CONSULTANT as follows:\nA. Total payment is not to exceed $_____for time and materials at the rates and conditions set forth in Exhibit B: Fee Schedule, which by this reference is incorporated herein.\nB. In no event, will the CONSULTANT be reimbursed for overhead costs at a rate that exceeds the overhead rate set forth in the Fee Schedule.\nC. Transportation and subsistence costs shall not exceed the rates authorized to employees under current U.S. General Service Administration rules.\nD. Reimbursable expenses will be billed by CONSULTANT and processed for payment upon approval of the Contract Manager.\nE. Progress payments will be made no less than monthly in arrears based on satisfactory services provided and actual allowable incurred costs. A pro rata portion of the CONSULTANT’s fixed fee, if applicable, will be included in the monthly progress payments. If CONSULTANT fails to submit the required\ndeliverable items according to the schedule set forth in the Scope of Services, the COMMISSION may delay payment and/or terminate this Agreement in accordance with the provisions of Section 4 of this Agreement.\nF. No payment will be made prior to approval of any work, nor for any work performed prior to approval of this Agreement.\nG. CONSULTANT shall not exceed milestone cost estimates as shown in Exhibit B, except with the prior written approval of the Contract Manager.\nH. The CONSULTANT will be reimbursed after receipt by the COMMISSION’s Contract Manager of itemized invoices. Invoices shall be submitted no later than 45calendar days after the performance of work for which the CONSULTANT is billing. Invoices shall be mailed to the COMMISSION’s Contract Manager at the following address:\nSCCRTC, 1523 Pacific Ave, Santa Cruz, CA, 95060\nThe invoices must include the following information:\n1.\nLabor (staff name, hours charged, hourly billing rate, current charges and cumulative charges) performed during the billing period by task;\n2.\nItemized expenses incurred during the billing period;\n3.\nTotal invoice/payment requested;\n4.\nTotal amount previously paid under this Agreement;\n5.\nReport of expenditures by CONSULTANT and subconsultants for each task and subtask or milestone and estimated percentage completion by such divisions of work;\n6.\nWritten progress reports, in a format to be mutually agreed upon, that is sufficiently detailed for the Contract Manager to determine if the CONSULTANT is performing to expectations and is on schedule; provides communication of interim findings; addresses any difficulties or special problems encountered, so remedies can be developed; and other information as requested by COMMISSION.\n7.\nCONSULTANT's final invoice must be submitted within 60-calendar days after acceptance of the CONSULTANT’s work by the Contract Manager.\nI. For personnel subject to prevailing wage rates as described in the California Labor Code, all salary increases, which are the direct result of changes in the prevailing wage rates are reimbursable."
+      },
+      {
+         "id":"clause_3",
+         "risk_level":"MEDIUM",
+         "risk_score":4,
+         "plain_english":"This agreement officially starts on a specific date, but only if the Commission's governing board approves it. You can only begin work after receiving a formal 'notification to proceed' from the Commission's Contract Manager. The agreement ends on another specific date, unless it's ended early or extended. The Commission explicitly states the contract isn't legally binding until it's fully signed and approved by their board.",
+         "red_flags":[
+            "The contract is contingent on 'prior approval by the COMMISSION governing board' and 'notification to proceed', which are outside your control.",
+            "Clear statement that the agreement is 'not binding and enforceable until it is fully executed and approved' means any work done before these steps is at your sole risk."
+         ],
+         "what_it_means_for_you":"You cannot start any work or incur costs before receiving explicit notification to proceed *after* the Commission's board approval, even if the start date has passed. Doing so risks non-payment for that work. Delays in their internal approval process or notification could shorten your project timeline without extending the end date, impacting your ability to deliver.",
+         "negotiation_tip":"Add a clause stating that if notification to proceed is delayed by more than X days beyond the stated effective date, the end date will be automatically extended by the same number of days, or you have the option to renegotiate the scope/fee.",
+         "title":"Agreement Term",
+         "category":"TERMINATION",
+         "original_text":"3. TERM. This Agreement shall take effect on (DATE); contingent upon prior approval by the COMMISSION governing board, and the CONSULTANT shall commence work after notification to proceed by the COMMISSION’S Contract Manager. The Agreement shall end on (DATE), unless earlier terminated or extended by contract amendment. The CONSULTANT is advised that this Agreement is not binding and enforceable until it is fully executed and approved by the COMMISSION's board."
+      },
+      {
+         "id":"clause_4",
+         "risk_level":"HIGH",
+         "risk_score":9,
+         "plain_english":"The Commission can end this agreement at any time for any reason (for 'convenience') with 30 days' notice, paying you only for your approved costs incurred up to that point, plus reasonable termination costs. If you default (e.g., bankruptcy, breach of terms), the Commission can terminate with only 10 days' notice to fix the problem, and you'll be responsible for all their resulting costs, including finding a new consultant. If you want to terminate, you must give 120 days' written notice, but you will still be liable for all the Commission's costs, including finding a replacement consultant.",
+         "red_flags":[
+            "Commission's 'convenience' termination (A) is very broad, giving them an easy exit while you bear the risk of project cancellation and potential loss of anticipated profits.",
+            "Your default termination (B) has a very short 10-day cure period for 'any breach,' which can be unrealistic for complex issues, leading to severe financial penalties including reprocurement costs.",
+            "Your ability to terminate (C) is severely punitive; you are still liable for all the Commission's 'reasonable costs' and 'reprocurement costs,' effectively treating your termination as a breach regardless of reason. This makes it extremely difficult to exit the contract without significant financial penalty."
+         ],
+         "what_it_means_for_you":"You are in a highly vulnerable position regarding termination. The Commission can end the project without significant penalty to themselves. You face immense financial risk if you're deemed in default or if you need to terminate the agreement yourself for any reason, potentially owing the Commission substantial amounts for finding a replacement. This severely restricts your flexibility and increases your liability.",
+         "negotiation_tip":"For your termination right (C), remove the liability for the Commission's costs, or at minimum, cap those costs. For Commission's convenience termination (A), request to be reimbursed for a reasonable portion of lost profit on the uncompleted work, or at least a termination fee to cover administrative close-out costs.",
+         "title":"Early Termination",
+         "category":"TERMINATION",
+         "original_text":"4. EARLY TERMINATION.\nA. COMMISSION may terminate this Agreement for its convenience any time, in whole or part, by giving CONSULTANT thirty-day (30-day) written notice thereof. Within thirty days of the COMMISSION's receipt of CONSULTANT's final billing, COMMISSION shall pay CONSULTANT its allowable costs incurred to date of termination and those allowable costs determined by COMMISSION to be reasonably necessary to effect such termination. Thereafter, CONSULTANT shall have no further claims against COMMISSION under this Agreement.\nB. COMMISSION may terminate this Agreement for CONSULTANT's default if a federal or state proceeding for the relief of debtors is undertaken by or against CONSULTANT, or CONSULTANT's\nprincipal, or if CONSULTANT or CONSULTANT's principal makes an assignment for the benefit of creditors, or if CONSULTANT breaches any term(s) or violates any provision(s) of this Agreement and does not cure such breach or violation within ten (10) days after written notice thereof by COMMISSION. CONSULTANT shall be liable for any and all reasonable costs incurred by COMMISSION as a result of such default, including but not limited to reprocurement costs of the same or similar services defaulted by CONSULTANT under this Agreement.\nC. CONSULTANT may terminate this Agreement by giving the COMMISSION at least one hundred and twenty (120) days advance written notice. CONSULTANT shall be liable for any and all reasonable costs incurred by COMMISSION as a result of such default, including but not limited to reprocurement costs of the same or similar services defaulted or not provided by CONSULTANT under this Agreement."
+      },
+      {
+         "id":"clause_5",
+         "risk_level":"MEDIUM",
+         "risk_score":6,
+         "plain_english":"You agree to protect, pay for, defend, and hold the Commission harmless from any claims, losses, or costs arising from your negligence, recklessness, or willful misconduct, including harm to people or property (even your own staff or property). You also agree to be solely responsible for all federal, state, and local taxes, charges, and contributions related to your company and your employees performing this agreement (like unemployment or social security taxes).",
+         "red_flags":[
+            "The 'defend' obligation means you'll be responsible for the Commission's legal fees and costs if a claim arises from your actions, even if you are ultimately found not liable (until a final determination of fault).",
+            "The phrase 'arise out of, pertain to, or relate to' is broad and could potentially encompass claims that are only tangentially connected to your work, increasing your risk.",
+            "The tax indemnity reinforces your independent contractor status but places the full burden on you to correctly classify and manage tax obligations for your personnel."
+         ],
+         "what_it_means_for_you":"You bear significant financial responsibility for any mistakes, negligence, or misconduct on your part, including covering the Commission's legal defense costs. You must ensure robust internal controls and insurance (as per Clause 6) to mitigate these risks. You are solely responsible for all employment-related taxes and benefits for your team.",
+         "negotiation_tip":"Limit the indemnity to 'sole negligence or willful misconduct' on your part, and exclude 'defense costs' from the indemnity unless and until a final judicial determination of your liability is made.",
+         "title":"Indemnification for Damages, Taxes and Contributions",
+         "category":"LIABILITY",
+         "original_text":"5. INDEMNIFICATION FOR DAMAGES, TAXES AND CONTRIBUTIONS.\nCONSULTANT shall exonerate, indemnify, defend, and hold harmless the COMMISSION (which for the purpose of this Agreement shall include, without limitation, its officers, agents, employees and volunteers) from and against:\nA. Any and all claims, demands, losses, damages, defense costs, or liability of any kind or nature which COMMISSION may sustain or incur or which may be imposed upon it for injury to or death of persons, or damage to property which arise out of, pertain to, or relate to CONSULTANT’S negligence, recklessness, or willful misconduct under the terms of this Agreement. Such indemnification includes any damage to the person(s), or property(ies) of CONSULTANT and third persons.\nB. Any and all Federal, State and Local taxes, charges, fees, or contributions required to be paid with respect to CONSULTANT and CONSULTANT’S officers, employees and agents engaged in the performance of this Agreement (including, without limitation, unemployment insurance, social security and payroll tax withholding)."
+      },
+      {
+         "id":"clause_6",
+         "risk_level":"HIGH",
+         "risk_score":9,
+         "plain_english":"You must pay for and maintain specific insurance coverage for the entire contract term, and it must cover the Commission first. If you use subconsultants, they either need their own insurance or you must cover them. You need Workers' Compensation (unless you have no employees), $1 million in Auto Liability (unless vehicles aren't essential), $1 million in Commercial General Liability, and potentially $1 million in Professional Liability if initialed. If your Professional Liability is 'claims-made' insurance, you must maintain it for 3 years after the contract ends or buy a 'tail' policy, at a cost up to 100% of your last annual premium, which is deemed 'reasonable'. You must add the Commission as an additional insured on certain policies. All policies must give 30 days' notice before cancellation. You need to provide proof of insurance upfront and keep it current, or risk termination. You must also pay any deductibles or self-insured retentions (SIRs) within a very tight 5 business days for any claim that might cover the Commission.",
+         "red_flags":[
+            "The requirement to maintain 'claims-made' Professional Liability coverage for 3 years post-agreement, with a 'reasonable' cost up to 100% of the last annual premium, represents a significant, long-term financial liability for you.",
+            "The clause that the Commission's insurance is 'excess' means your insurance will always pay first, even if the Commission also has coverage.",
+            "The requirement to pay all deductibles and self-insured retentions (SIRs) within a mere 5 business days is extremely aggressive and could lead to major, unexpected cash flow issues, as SIRs can be very substantial amounts.",
+            "The clause requesting the Commission be a 'named insured' without corresponding obligations means they get the benefits of your policy without sharing your responsibilities to the insurer.",
+            "The strict requirements for subconsultant insurance compliance add administrative and compliance burdens on you."
+         ],
+         "what_it_means_for_you":"You will incur substantial and ongoing costs for insurance, including potentially a significant 'tail' policy premium after the project ends. You face a high risk of immediate, large, and unexpected payouts for deductibles/SIRs within an impossibly short timeframe, which could cripple your cash flow. You are responsible for ensuring all subconsultants meet equivalent stringent insurance requirements.",
+         "negotiation_tip":"Negotiate to extend the 5-day deductible/SIR payment window to at least 30-60 days. For 'claims-made' tail coverage, seek to cap the cost at a fixed dollar amount or a lower percentage of the last premium, or limit the duration to 1-2 years if appropriate for the project's risk profile.",
+         "title":"Insurance Requirements",
+         "category":"LIABILITY",
+         "original_text":"6. INSURANCE. CONSULTANT, at its sole cost and expense, for the full term of this Agreement, and any extensions thereof, shall obtain and maintain at minimum compliance with all of the following insurance coverage(s) and requirements. Such insurance coverage shall be primary coverage as respects COMMISSION and any insurance or self-insurance maintained by COMMISSION shall be excess of CONSULTANT’S insurance coverage and shall not contribute to it.\nIf CONSULTANT utilizes one or more subconsultants in the performance of this Agreement, CONSULTANT shall obtain and maintain Independent CONSULTANT’s Insurance as to each subconsultant or otherwise provide evidence of insurance coverage from each subconsultant equivalent to that required of CONSULTANT in this Agreement.\nA. Types of Insurance and Minimum Limits\n1) Workers’ Compensation in the minimum statutorily required coverage amounts. This insurance coverage shall not be required if the CONSULTANT has no employees and certifies to this fact by initialing here . (Signature space provided)\n2) Automobile Liability Insurance for each of CONSULTANT’S vehicles used in the performance of this Agreement, including owned, non-owned (e.g. owned by CONSULTANT’S employees), leased or hired vehicles, in the minimum amount of $1,000,000 combined single limit per occurrence for bodily injury and property damage. This insurance coverage shall not be required if vehicle use by the CONSULTANT is not a material part of performance of this Agreement and CONSULTANT and COMMISSION both certify to this fact by initialing here / . (Signature spaces provided)\n3) Comprehensive or Commercial General Liability Insurance coverage in the minimum amount of one million dollars ($1,000,000) combined single limit (CSL), including coverage for: (a) bodily injury, (b) personal injury, (c) broad form property damage, (d) contractual liability, and (e) cross-liability.\n4) Professional Liability Insurance in the minimum amount of one million dollars ($1,000,000) combined single limit, if, and only if, this Subparagraph is initialed by CONSULTANT and COMMISSION / . (Signature spaces provided)\nB. Other Insurance Provisions\n1) If any insurance coverage required in this Agreement is provided on a “Claims Made” rather than “Occurrence” form, CONSULTANT agrees to maintain the required coverage for a period of three (3) years after the expiration of this Agreement (hereinafter “post agreement coverage”) and any extensions thereof. CONSULTANT may maintain the required post agreement coverage by renewal or purchase of prior acts or tail coverage. This provision is contingent upon post agreement coverage being both available and reasonably affordable in relation to the coverage provided during the term of this Agreement. For purposes of interpreting this requirement, a cost not exceeding 100% of the last annual policy premium during the term of this Agreement in order to purchase prior acts or tail coverage for post agreement coverage shall be deemed to be reasonable. The COMMISSION will not be responsible for any premiums or assessments on the policy.\n2) All required Automobile and Comprehensive or Commercial General Liability Insurance shall be endorsed to contain the following clause:\n“Santa Cruz County Regional Transportation Commission, its officials, employees, agents and volunteers are added as an additional insured as respects the operations and activities of, or on behalf of, the named insured performed under Agreement with the Commission.”\n3) All required insurance policies shall be endorsed to contain the following clause:\n“This insurance shall not be canceled until after thirty (30) days prior written notice has been given to:\nSanta Cruz County Regional Transportation Commission\nAttn: Yesenia Parra\n1523 Pacific Avenue\nSanta Cruz, CA 95060\n4) CONSULTANT agrees to provide its insurance broker(s) with a full copy of these insurance provisions and provide COMMISSION on or before the effective date of this Agreement with Certificates of Insurance for all required coverages. All Certificates of Insurance shall be delivered or sent to:\nSanta Cruz County Regional Transportation Commission\nAttn: Yesenia Parra\n1523 Pacific Avenue\nSanta Cruz, CA 95060\n5) The CONSULTANT agrees that the insurance herein provided for, shall be in effect at all times during the term of this contract. In the event said insurance coverage expires at any time or times during the term of this contract, the CONSULTANT agrees to provide at least thirty (30) days prior notice to said expiration date; and a new Certificate of Insurance evidencing insurance coverage as provided for herein, for not less than either the remainder of the term of the contract, or for a period of not less than one (1) year. New Certificates of Insurance are subject to the approval of the COMMISSION. In the event the CONSULTANT fails to keep in effect at all times insurance\ncoverage as herein provided, the COMMISSION may, in addition to any other remedies it may have, terminate this Agreement upon occurrence of such event.\n6) If any insurance policy of CONSULTANT required by this document includes language conditioning the insurer’s legal obligation to defend or indemnify COMMISSION on the performance of any act(s) by the named insured, then said insurance policy, by endorsement, shall also name the COMMISSION as a named insured. Notwithstanding the foregoing, both the CONSULTANT and its insurers agree that by naming the COMMISSION as a named insured, the COMMISSION may at its sole direction, but is not obligated to, perform any act required by the named insured under said insurance policies.\n7) CONSULTANT shall do all things required to be performed by it pursuant to its insurance policies including but not limited to paying within five (5) work days, all deductibles and self-insured retentions (SIR) required to be paid under any insurance policy that may provide defense or indemnity coverage to COMMISSION or any additional insured.\n8) CONSULTANT shall cause the foregoing provisions to be inserted in all subcontracts for any work covered under this Agreement by a subconsultant compensated more than $50,000 and employing more than fifteen (15) employees, provided that the foregoing provisions shall not apply to contracts or subcontracts for standard commercial supplies or raw materials."
+      },
+      {
+         "id":"clause_7",
+         "risk_level":"LOW",
+         "risk_score":2,
+         "plain_english":"You promise that you will apply standard professional care to follow all relevant federal, state, and local laws, rules, and regulations while working on this agreement. If you discover a conflict between different laws that apply to the project, you must inform the Commission about it, and they agree to help you resolve the conflict.",
+         "red_flags":[
+            "While 'usual and customary professional care' is a standard for consultants, it's still a subjective measure that could be debated."
+         ],
+         "what_it_means_for_you":"You are responsible for ensuring your work and operations comply with all applicable laws. Your primary protection here is the Commission's agreement to cooperate in resolving legal conflicts, but the initial burden of identification and notification is on you.",
+         "negotiation_tip":"Ensure you have internal processes to identify and track compliance with relevant laws. No specific negotiation tip for this clause, as it's largely standard.",
+         "title":"Federal, State and Local Laws Compliance",
+         "category":"OTHER",
+         "original_text":"7. FEDERAL, STATE AND LOCAL LAWS. CONSULTANT warrants that in the performance of this Agreement, it shall exercise usual and customary professional care in its efforts to comply with all applicable federal, state and local laws, statutes and ordinances and all lawful orders, rules and regulations promulgated thereunder. In the event of a conflict between the laws and lawful regulations of any government entities having jurisdiction over the project, the CONSULTANT shall notify COMMISSION of the nature and impact of such conflict. The COMMISSION agrees to cooperate and work with the CONSULTANT in an effort to resolve any conflict."
+      },
+      {
+         "id":"clause_8",
+         "risk_level":"MEDIUM",
+         "risk_score":5,
+         "plain_english":"You agree not to discriminate against any employee or job applicant based on protected characteristics like race, gender, disability, etc., as prohibited by federal, state, and local laws. You must comply with all anti-discrimination laws and certify under penalty of perjury that you've followed California's non-discrimination program requirements. If you fail to comply, the Commission can cancel or suspend your agreement, and you could be barred from future contracts with them.",
+         "red_flags":[
+            "Failure to comply can lead to immediate contract termination and being declared 'ineligible for further agreements with the COMMISSION', which is a significant business risk.",
+            "The requirement to certify compliance 'under penalty of perjury' emphasizes the serious legal implications of non-compliance."
+         ],
+         "what_it_means_for_you":"You must have robust Equal Employment Opportunity (EEO) policies and practices in place and ensure all your employees and agents adhere to them. A single substantiated claim of discrimination could jeopardize this contract and future business with the Commission.",
+         "negotiation_tip":"Ensure your HR policies and training programs are up-to-date and compliant with all relevant EEO laws, especially California's specific requirements. No specific negotiation tip for changing the clause itself, as it reflects legal obligations.",
+         "title":"Equal Employment Opportunity",
+         "category":"OTHER",
+         "original_text":"8. EQUAL EMPLOYMENT OPPORTUNITY. During and in relation to the performance of this Agreement, CONSULTANT agrees to the following:\nThe CONSULTANT shall not discriminate or permit discrimination against any employee or applicant for employment in any manner prohibited by Federal, State and local laws, including but not limited to race, color, gender, religion, national origin, ancestry, physical or mental disability, medical condition, marital status, sexual orientation, age (over 18), veteran status, pregnancy, or any other non-merit factor unrelated to job duties.\nSuch action shall include, but not be limited to, the following: recruitment; advertising, layoff or termination; rates of pay or other forms of compensation; and selection for training (including apprenticeship), employment, upgrading, demotion, or transfer. The CONSULTANT agrees to post in conspicuous places, available to employees and applicants for employment, notice setting forth the provisions of this non-discrimination clause.\nCONSULTANT shall comply fully with all federal, State and local laws and regulations which prohibit discrimination. The CONSULTANT’s signature affixed herein, and dated, shall constitute a certification under penalty of perjury under the laws of the State of California that the CONSULTANT has, unless exempt, complied with, the nondiscrimination program requirements of Government Code Section 12990 and Title 2, California Administrative Code, Section 8103.\nIn the event of CONSULTANT’S non-compliance with the non-discrimination clauses of this Agreement or with any of the said rules, regulations or orders the COMMISSION may cancel, terminate or suspend the Agreement in whole or in part. CONSULTANT may also be declared ineligible for further agreements with the COMMISSION."
+      },
+      {
+         "id":"clause_9",
+         "risk_level":"LOW",
+         "risk_score":3,
+         "plain_english":"The Commission has a strict anti-harassment policy, covering all types of harassment. As a Consultant, you and your staff must not engage in any conduct that interferes with a Commission employee's work or creates an intimidating, hostile, or offensive work environment.",
+         "red_flags":[
+            "The terms 'unreasonably interfering', 'intimidating, hostile or offensive work environment' can be subjective, potentially leading to disputes based on perception."
+         ],
+         "what_it_means_for_you":"You are responsible for ensuring your employees and representatives maintain a professional and respectful demeanor when interacting with Commission staff. Any reported harassment could be a breach of contract and lead to issues, even if not legally substantiated.",
+         "negotiation_tip":"Ensure your staff is aware of the Commission's harassment policy and maintain your own robust anti-harassment policies and training. No specific negotiation tip for changing the clause itself, as it's standard conduct.",
+         "title":"Harassment Policy",
+         "category":"OTHER",
+         "original_text":"9. HARASSMENT. The COMMISSION maintains a strict policy prohibiting unlawful harassment, including sexual harassment, in any form, including verbal, physical and visual harassment by any employee, supervisor, manager, officer or Board member, or agent of the employer. Vendors, CONSULTANTs, and consultants shall not engage in conduct that has an effect of unreasonably interfering with a COMMISSION employee's work performance or creates an intimidating, hostile or offensive work environment."
+      },
+      {
+         "id":"clause_10",
+         "risk_level":"MEDIUM",
+         "risk_score":4,
+         "plain_english":"You promise that if any licenses are required by law for you, your employees, agents, or subconsultants, those licenses are currently valid, in good standing, and will remain so throughout the contract. You also promise that any necessary bonds have been posted.",
+         "red_flags":[
+            "Loss or lapse of any required license by you or your team (including subconsultants) constitutes a breach of contract."
+         ],
+         "what_it_means_for_you":"You must proactively manage all necessary professional and business licenses for your firm and any individuals working on the project, including your subconsultants. This requires diligent tracking of renewal dates and compliance requirements. A lapse could lead to contract termination.",
+         "negotiation_tip":"Ensure you have a system in place to track and renew all applicable licenses for your team and subconsultants. No specific negotiation tip for changing the clause itself, as it's a fundamental requirement.",
+         "title":"Required Licenses",
+         "category":"OTHER",
+         "original_text":"10. LICENSES. If a license of any kind is required of CONSULTANT, its employees, agents, or sub CONSULTANTs by Federal or State law, CONSULTANT warrants that such license has been obtained, is valid and in good standing, that CONSULTANT shall keep it in effect at all times during the terms of this Agreement, and that any applicable bond has been posted in accordance with all applicable laws and regulations."
+      },
+      {
+         "id":"clause_11",
+         "risk_level":"MEDIUM",
+         "risk_score":4,
+         "plain_english":"Both you and the Commission agree that you are an independent contractor, not an employee. This means you are solely responsible for all your own insurance (like workers' compensation and unemployment) and all payroll-related taxes. You won't receive any employee benefits from the Commission. The Commission confirms that you have the right to control how you achieve the contracted results. The clause then lists several legal 'tests' (like who controls the work details, if you're in a distinct business, if you supply tools, payment method) to support this independent contractor status, and both parties certify this is their judgment.",
+         "red_flags":[
+            "While the clause clearly states independent contractor status, if the *actual working relationship* deviates from the criteria listed (e.g., the Commission exerts too much control over *how* you do the work, beyond just the results), this legal status could be challenged by tax authorities.",
+            "The detailed nature of this clause puts a strong emphasis on maintaining this status, and any misstep in practice could put you at risk for back taxes and penalties."
+         ],
+         "what_it_means_for_you":"You bear full responsibility for all taxes, benefits, and insurance related to your business and personnel, typical for an independent contractor. You must ensure that, in practice, the Commission adheres to the 'manner and means' control outlined, allowing you autonomy in how you perform the work. If the relationship functionally becomes employer-employee, you could face significant tax and legal liabilities.",
+         "negotiation_tip":"Ensure the 'manner and means' control granted to the Consultant is robustly upheld in practice, and that project managers at the Commission are trained on the limitations of their oversight to avoid inadvertently jeopardizing your independent contractor status.",
+         "title":"Independent Consultant Status",
+         "category":"OTHER",
+         "original_text":"11. INDEPENDENT CONSULTANT STATUS. CONSULTANT and COMMISSION have reviewed and considered the principal test and secondary factors herein and agree that CONSULTANT is an independent CONSULTANT and not an employee of COMMISSION. CONSULTANT is responsible for all insurance (workers compensation, unemployment, etc.) and all payroll related taxes. CONSULTANT is not entitled to any employee benefits. COMMISSION agrees that CONSULTANT shall have the right to control the manner and means of accomplishing the result contracted for herein.\nPRINCIPAL TEST: The CONSULTANT rather than COMMISSION has the right to control the manner and means of accomplishing the result contracted for.\nSECONDARY FACTORS: (a) The extent of control which, by agreement, COMMISSION may exercise over the details of the work is slight rather than substantial; (b) CONSULTANT is engaged in a distinct occupation or business; (c) In the locality, the work to be done by CONSULTANT is usually done by a specialist without supervision, rather than under the direction of an employer; (d) The skill required in the particular occupation is substantial rather than slight; (e) The CONSULTANT rather than the COMMISSION supplies the instrumentalities, tools and work place; (f) The length of time for which CONSULTANT is engaged is of limited duration rather than indefinite; (g) The method of payment of CONSULTANT is by the job rather than by the time; (h) The work is part of a special or permissive activity, program, or project, rather than part of the regular business of COMMISSION; (i) CONSULTANT and COMMISSION believe they are creating an independent CONSULTANT relationship rather than an employer-employee relationship; and (j) The COMMISSION conducts public business.\nIt is recognized that it is not necessary that all secondary factors support creation of an independent CONSULTANT relationship, but rather that overall there are significant secondary factors which indicate that CONSULTANT is an independent CONSULTANT.\nBy their signatures to this Agreement, each of the undersigned certifies that it is his or her considered judgment that the CONSULTANT engaged under this Agreement is in fact an independent CONSULTANT."
+      },
+      {
+         "id":"clause_12",
+         "risk_level":"MEDIUM",
+         "risk_score":5,
+         "plain_english":"You, your subconsultants, and the Commission must keep all financial, administrative, and project records related to this contract. These records must be available for inspection at your offices at any reasonable time during the contract and for five years after your final payment, or until a final audit report is accepted by the Commission, whichever is later. The Commission and any state or federal auditors have the right to examine, copy, and audit these records. This same requirement must be included in any subcontract over $25,000.",
+         "red_flags":[
+            "The record retention period can be quite long (5 years post-final payment OR until final audit accepted, whichever is *first* - this phrasing could be ambiguous: 'whichever occurs first' vs. 'whichever is *later*'). Assuming the intent is 'later', it means indefinite retention until an audit is complete, which can be years.",
+            "Extensive audit rights mean significant administrative effort and potential disruption during audits, which you bear the cost of."
+         ],
+         "what_it_means_for_you":"You must maintain meticulous and comprehensive records for a potentially extended period (possibly indefinitely until all audits are clear), incurring storage and administrative costs. You must also compel your subconsultants to adhere to these same strict record-keeping and audit access requirements.",
+         "negotiation_tip":"Clarify 'whichever occurs first' vs. 'whichever is later' for record retention. If it is 'later', try to cap the audit period to a fixed maximum term, e.g., 7 years, regardless of audit completion.",
+         "title":"Retention and Audit of Records",
+         "category":"OTHER",
+         "original_text":"12. RETENTION AND AUDIT OF RECORDS. For the purpose of determining compliance with Public Contract Code 10115, et seq. and Title 21, California Code of Regulations, Chapter 21, Section 2500 et seq., if applicable and other matters connected with the performance of the contract pursuant to Government Code 8546.7: CONSULTANT, subconsultants, and the COMMISSION shall maintain all books, documents, papers, accounting records, and other evidence pertaining to the performance of the contract, including but\nnot limited to, the costs of administering the Agreement. All parties shall make such materials available at their respective offices at all reasonable times during the Agreement period and for five (5) years from the date of final payment under this Agreement or until a final audit report is accepted by COMMISSION, whichever occurs first. The COMMISSION and any state or federal auditor, or any duly authorized representative of the state or federal government shall have access to any books, records, and documents of the CONSULTANT that are pertinent to the Agreement for audit, examinations, excerpts, and transactions, and copies thereof shall be furnished if requested.\nSubcontracts in excess of $25,000 shall contain this provision."
+      },
+      {
+         "id":"clause_13",
+         "risk_level":"MEDIUM",
+         "risk_score":5,
+         "plain_english":"You and your subconsultants must allow the Commission, the state, and potentially the FHWA (if federal funds are used) to review and inspect your project activities and files at any reasonable time during the contract, even daily.",
+         "red_flags":[
+            "The phrase 'including review and inspection on a daily basis' is particularly intrusive and could be highly disruptive to your operations and workflow.",
+            "'All reasonable times' is subjective and could lead to disputes about the appropriateness of inspection frequency or timing."
+         ],
+         "what_it_means_for_you":"You face potentially constant and disruptive oversight from multiple entities. 'Daily inspection' could significantly impact your team's productivity and morale, requiring extra staff time for coordination and access. You will bear the administrative burden of accommodating these inspections.",
+         "negotiation_tip":"Negotiate to remove 'including review and inspection on a daily basis' or define specific conditions under which such frequent inspections would be justified (e.g., specific performance issues). Clarify 'reasonable times' to minimize disruption to your core work.",
+         "title":"Inspection of Work",
+         "category":"OTHER",
+         "original_text":"13. INSPECTION OF WORK\nThe CONSULTANT and any subconsultant shall permit the COMMISSION, the state, and the FHWA if federal participating funds are used in this contract, to review and inspect the project activities and files at all reasonable times during the term of this Agreement including review and inspection on a daily basis."
+      },
+      {
+         "id":"clause_14",
+         "risk_level":"LOW",
+         "risk_score":2,
+         "plain_english":"You must state in all your reports and other publications that the materials were prepared for and on behalf of the Commission.",
+         "red_flags":[
+            "Limits your ability to fully brand or claim ownership of the work in public-facing materials without explicit attribution to the Commission."
+         ],
+         "what_it_means_for_you":"You lose some control over the public presentation of your work, requiring you to always credit the Commission as the client. This is a common requirement in public contracts.",
+         "negotiation_tip":"No specific negotiation tip, as this is standard attribution in public sector contracts. However, you might clarify if it's acceptable to mention your role *in addition* to acknowledging the Commission.",
+         "title":"Acknowledgement of Commission",
+         "category":"OTHER",
+         "original_text":"14. ACKNOWLEDGMENT. CONSULTANT shall acknowledge in all reports and literature that the material is prepared for and on behalf of the COMMISSION."
+      },
+      {
+         "id":"clause_15",
+         "risk_level":"HIGH",
+         "risk_score":10,
+         "plain_english":"The Commission gets an 'unqualified and unconditional' right to use everything you produce under this agreement (materials, data, information, written work, etc.) for any purpose, free of charge, and can allow others to do the same. If any of your work is copyrighted, trademarked, or patented, you give the Commission a permanent, royalty-free, non-exclusive license to use it, make changes to it, and sublicense it to others. You are forbidden from using this work for any profit-making activities or selling/granting rights to it to others. All custom deliverables (reports, plans, etc.) automatically become the property of the Commission once completed, and are considered 'works made for hire,' meaning the Commission owns all copyright. Any information you learn from these deliverables or during audit work is confidential and cannot be used or discussed with anyone without the Commission's written permission. These rules must also be in any subcontract over $25,000.",
+         "red_flags":[
+            "This clause constitutes a complete and unqualified transfer of all intellectual property rights and ownership of deliverables to the Commission, classifying them as 'works made for hire'. This is the most aggressive form of IP transfer.",
+            "The 'perpetual, royalty-free, nonexclusive and irrevocable license' (plus sublicensing rights) for any IP not covered by 'works made for hire' is extremely broad and highly unfavorable.",
+            "You are explicitly forbidden from using the work product 'for any profit-making venture, or sell or grant rights to a third party for that purpose.' This severely restricts your ability to reuse, adapt, or build upon your own work and expertise for future clients, stifling your business's growth and competitive edge.",
+            "The confidentiality extends to 'all information derived from these deliverables' and 'information obtained during audit work,' which is excessively broad and restrictive, potentially preventing you from leveraging general knowledge or methodologies gained.",
+            "The requirement to impose these onerous IP terms on subconsultants may make it difficult to find willing partners."
+         ],
+         "what_it_means_for_you":"You lose all ownership and future commercial rights to any work you produce under this contract, including the underlying intellectual property. You cannot reuse any part of the project's output, nor can you use derived information or insights for future projects, even internal ones, without the Commission's explicit permission. This severely limits your ability to grow your knowledge base and offer similar services to other clients, impacting your long-term business viability.",
+         "negotiation_tip":"Seek to retain ownership of your underlying intellectual property, tools, methodologies, and general knowledge. Negotiate for the Commission to receive a *license* to use the deliverables for their specific purposes, rather than full ownership and 'works made for hire' status. At a minimum, negotiate for the right to reuse general concepts, methodologies, and non-confidential components for future clients, subject to confidentiality of the Commission's specific data.",
+         "title":"Work Products and Intellectual Property",
+         "category":"IP_TRANSFER",
+         "original_text":"15. WORK PRODUCTS. All material, data, information, and written, graphic or other work produced under this Agreement is subject to the unqualified and unconditional right of the COMMISSION to use, reproduce, publish, display, and make derivative use of all such work, or any part of it, free of charge and in any manner and for any purpose; and to authorize others to do so. If any of the work is subject to copyright, trademark, service mark, or patent, CONSULTANT now grants to the COMMISSION a perpetual, royalty-free, nonexclusive and irrevocable license to use, reproduce, publish, use in the creation of derivative works, and display and perform the work, or any part of it, and to grant to any third party a comparable and coextensive sublicense.\nCONSULTANT shall include in any subcontract with a third party for work under this Agreement terms that preserve the rights, interests, and obligations created by this Section, and that identify the COMMISSION as a third-party beneficiary of those provisions.\nThe CONSULTANT shall not utilize the work produced under this Agreement for any profit-making venture, or sell or grant rights to a third party for that purpose.\nA. Upon completion of all work under this contract, ownership and title to all custom letters, reports, documents, plans, specifications, and estimates and other products produced as part of this Agreement (herein \"deliverables\") will automatically be vested in the COMMISSION; and no further agreement will be necessary to transfer ownership to the COMMISSION. The CONSULTANT shall furnish the COMMISSION all necessary copies of data needed to complete the review and approval process. Copies may be made for CONSULTANT's records but shall not be furnished to others without the COMMISSION's prior written authorization. Such deliverables shall be deemed works made for hire and all rights in copyright therein shall be retained by COMMISSION. All information derived from these deliverables is deemed confidential and may not be disclosed to any other party without the express prior written consent of COMMISSION. No information obtained during audit work performed under this Agreement may be used by CONSULTANT for any purpose (internal or external), nor may the information be discussed with others without the prior written consent of COMMISSION.\nB. Any subcontract in excess of $25,000 entered into as a result of this contract, shall contain all of the provisions of this Section."
+      },
+      {
+         "id":"clause_16",
+         "risk_level":"MEDIUM",
+         "risk_score":5,
+         "plain_english":"You are responsible for following all OSHA regulations and any safety instructions from the Commission's Safety Officer. Specifically, you and your staff must wear hard hats and safety vests when working on the Santa Cruz Branch Rail Line. If the project areas are open to public and private traffic, you must comply with specific California Vehicle Code divisions (11-15) and take all 'reasonably necessary precautions' to ensure the safe operation of your vehicles and protect the public. These safety rules must also be included in any subcontracts.",
+         "red_flags":[
+            "The specific requirement to follow 'Divisions 11, 12, 13, 14, and 15 of the Vehicle Code' places a detailed compliance burden on you, requiring familiarity with these specific regulations.",
+            "'Reasonably necessary precautions' is subjective and could be a point of dispute regarding liability in case of an accident."
+         ],
+         "what_it_means_for_you":"You carry full responsibility for workplace safety, including complying with specific state vehicle codes. Failure to adhere to these detailed safety requirements could lead to project delays, financial penalties, or legal liability in the event of an accident or injury. You must ensure your staff and subconsultants are fully trained and compliant.",
+         "negotiation_tip":"Request clarification or a list of specific safety instructions or guidelines from the Commission, rather than relying on a broad reference to 'COMMISSION Safety Officer and other COMMISSION representatives'. Ensure your team is trained on the specific Vehicle Code divisions mentioned.",
+         "title":"Safety Requirements",
+         "category":"OTHER",
+         "original_text":"16. SAFETY\nA. The CONSULTANT shall comply with OSHA regulations applicable to CONSULTANT regarding necessary safety equipment or procedures. The CONSULTANT shall comply with safety instructions issued by the COMMISSION Safety Officer and other COMMISSION representatives. CONSULTANT personnel shall wear hard hats and safety vests at all times while working on the Santa Cruz Branch Rail Line.\nB. Areas within the limits of the project are open to public and private traffic. The CONSULTANT shall comply with all of the requirements set forth in Divisions 11, 12, 13, 14, and 15 of the Vehicle Code. The CONSULTANT shall take all reasonably necessary precautions for safe operation of its vehicles and the protection of the traveling public from injury and damage from such vehicles.\nC. Any subcontract entered into as a result of this contract, shall contain all of the provisions of this Section."
+      },
+      {
+         "id":"clause_17",
+         "risk_level":"LOW",
+         "risk_score":3,
+         "plain_english":"This agreement can only be changed or modified if both you and the Commission agree to it in writing. You can only start work related to an amendment after it's officially signed and you get a 'notification to proceed'. You cannot change your Project Manager or other listed team members without the Commission's prior written approval. Finally, no verbal agreements or understandings outside of this written contract are legally binding.",
+         "red_flags":[
+            "The requirement for 'prior written approval' for changes to key personnel (C) reinforces the Commission's control over your team, similar to Clause 1.C, potentially hindering your operational flexibility.",
+            "The 'no oral understanding' clause means any informal agreements or promises are unenforceable, putting the onus on you to ensure everything is in writing."
+         ],
+         "what_it_means_for_you":"You cannot make assumptions or rely on verbal promises; all changes to scope, schedule, or cost must be formally documented and approved in writing. Your ability to adjust your project team is restricted, requiring the Commission's consent.",
+         "negotiation_tip":"For personnel changes (C), clarify the criteria for approval (e.g., 'equivalent or better qualifications') to ensure consent is not unreasonably withheld and to streamline the process.",
+         "title":"Modification of Agreement",
+         "category":"OTHER",
+         "original_text":"17. MODIFICATION OF AGREEMENT.\nA. This Agreement may be amended or modified only by mutual written agreement of the parties.\nB. The CONSULTANT shall only commence work covered by an amendment after the amendment is executed and notification to proceed has been provided by the COMMISSION’s Contract Manager.\nC. There shall be no change in the CONSULTANT’s Project Manager or members of the project team, as listed in the approved Fee Schedule, which is a part of this Agreement without prior written approval by the COMMISSION’s Contract Manager.\nD. No oral understanding or agreement not incorporated herein shall be binding on the parties."
+      },
+      {
+         "id":"clause_18",
+         "risk_level":"HIGH",
+         "risk_score":9,
+         "plain_english":"This agreement is governed by California law. If a dispute (other than an audit issue) arises, you must continue working on the project diligently and follow the Commission's instructions while the dispute is being resolved. Any disputes will first be decided by a committee consisting of the Commission's Contract Manager and Executive Director, who will consider your input. If still unresolved, you can request a review by the Commission's Governing Board within 30 days of completing all deliverables. The ongoing dispute does not excuse you from fully performing the contract.",
+         "red_flags":[
+            "The most significant red flag is the 'CONSULTANT shall proceed diligently with the performance of this Agreement and shall comply with COMMISSION’s instructions' clause (also in C). This forces you to continue working (and incurring costs) even if you are in a fundamental dispute, for example, over payment, putting immense financial pressure on you.",
+            "The dispute resolution process is entirely internal to the Commission (Contract Manager, Executive Director, Governing Board). There is no independent, neutral arbiter for factual disputes, making the process inherently biased against you.",
+            "The binding nature or finality of the Governing Board's review is not specified, potentially leaving you with no clear path to independent resolution."
+         ],
+         "what_it_means_for_you":"You are at a severe disadvantage in any dispute with the Commission. You will be forced to continue working, possibly without payment, while the Commission's own staff and board decide the dispute, offering no impartial avenue for resolution. This clause places enormous financial and operational risk on you.",
+         "negotiation_tip":"Negotiate to include a provision for mediation or binding arbitration with a neutral third party (e.g., AAA or JAMS) as the final step in the dispute resolution process, after the internal review. Also, carve out exceptions to the 'continue performance' clause, especially for disputes related to non-payment or fundamental changes in scope.",
+         "title":"Dispute Resolution (Non-Audit)",
+         "category":"ARBITRATION",
+         "original_text":"18. DISPUTES. This Agreement shall be construed under the laws of the State of California. Pending final resolution of a dispute hereunder, CONSULTANT shall proceed diligently with the performance of this Agreement and shall comply with COMMISSION’s instructions.\nA. Any dispute, other than audit, concerning a question of fact arising under this Agreement that is not disposed of by agreement shall be decided by a committee consisting of the COMMISSION’s Contract Manager and Executive Director, who shall consider written or verbal information submitted by the CONSULTANT.\nB. Not later than 30 days after completion of all deliverables necessary to complete the plans, specifications and estimate, the CONSULTANT may request review by the COMMISSION GOVERNING BOARD of unresolved claims or disputes, other than audit. The request for review must be submitted in writing.\nC. Neither the pendency of a dispute, nor its consideration by the committee will excuse the CONSULTANT from full and timely performance in accordance with the terms of this contract."
+      },
+      {
+         "id":"clause_19",
+         "risk_level":"HIGH",
+         "risk_score":8,
+         "plain_english":"Similar to general disputes, if there's a disagreement about an audit (either during or after the project) that can't be resolved by agreement, it will first be reviewed by the Commission's Contract Manager. If still unresolved, you can ask for a review by the Commission's Executive Director within 30 days of the final audit report. Even while an audit dispute is ongoing, you are still required to fully perform your contract.",
+         "red_flags":[
+            "Again, the dispute resolution process is entirely internal to the Commission, meaning the party conducting the audit (and potentially seeking to claw back funds or deny payment) is also the party deciding the dispute.",
+            "The 'CONSULTANT from full and timely performance' (C) clause is particularly problematic for audit disputes, as audit findings often directly relate to payment or cost allowability, meaning you might be forced to continue work despite an unresolved payment dispute."
+         ],
+         "what_it_means_for_you":"You will have limited recourse if you disagree with the Commission's audit findings, as the review process is not independent. You could be compelled to continue working, potentially without payment, while the Commission internally decides on issues that directly impact your compensation. This places significant financial risk on you.",
+         "negotiation_tip":"Negotiate to include a provision for independent audit review or dispute resolution (e.g., by a mutually agreed-upon independent accounting firm or a neutral third-party arbitrator) for audit disputes, after the internal review by the Executive Director. Also, seek to pause work or specific payment obligations related to the audit dispute until resolution.",
+         "title":"Audit Review Procedures",
+         "category":"ARBITRATION",
+         "original_text":"19. AUDIT REVIEW PROCEDURES\nA. Any dispute concerning a question of fact arising under an interim or post-completion audit of this Agreement that is not disposed of by agreement, shall be reviewed by the COMMISSION’S Contract Manager.\nB. Not later than 30 days after issuance of the final audit report, the CONSULTANT may request a review by the COMMISSION’S Executive Director of unresolved audit issues. The request for review will be submitted in writing.\nC. Neither the pendency of a dispute nor its consideration by the COMMISSION will excuse the CONSULTANT from full and timely performance, in accordance with the terms of this contract."
+      },
+      {
+         "id":"clause_20",
+         "risk_level":"MEDIUM",
+         "risk_score":5,
+         "plain_english":"You are expected to perform the work with your own team, and you cannot subcontract any part of the work without prior written approval from the Commission's Contract Manager, unless it's already listed in your Fee Schedule. Any subcontract over $25,000 must include all the same contract provisions that apply to you. You also cannot replace any approved subconsultants without written approval from the Commission's Contract Manager.",
+         "red_flags":[
+            "The Commission has extensive control over your use of subconsultants and any changes to them, limiting your flexibility in team assembly and project execution.",
+            "The requirement to flow down 'all the provisions required by this Agreement' to subconsultants can be challenging, especially for smaller subconsultants who may resist onerous terms like IP transfer or extensive insurance requirements."
+         ],
+         "what_it_means_for_you":"You must secure Commission approval for most subcontracting decisions, which can introduce delays and administrative overhead. You are responsible for ensuring all your subconsultants comply with the entire contract, which can be a significant burden and risk if a subconsultant fails to meet a requirement (e.g., insurance, IP).",
+         "negotiation_tip":"Seek to establish clear criteria for the Commission's approval of subconsultants and substitutions (e.g., 'approval shall not be unreasonably withheld' if not already present). Clarify which specific provisions must be flowed down to subconsultants, rather than 'all provisions,' which might be overly broad.",
+         "title":"Subcontracting",
+         "category":"OTHER",
+         "original_text":"20. SUBCONTRACTING\nA. The CONSULTANT shall perform the work contemplated with resources available within its own organization; and no portion of the work pertinent to this Agreement shall be subcontracted without prior written authorization by the COMMISSION’S Contract Manager, except that, which is expressly identified in the approved Fee Schedule.\nB. Any subcontract in excess of $25,000 entered into as a result of this contract, shall contain all the provisions required by this Agreement to be applicable to those subconsultants.\nC. No substitution of subconsultants shall be valid until approved in writing by the COMMISSION’s Contract Manager."
+      },
+      {
+         "id":"clause_21",
+         "risk_level":"LOW",
+         "risk_score":2,
+         "plain_english":"You are not allowed to transfer or assign this agreement to another party without first getting written permission from the Commission.",
+         "red_flags":[
+            "Limits your ability to transfer the contract to another entity, such as in the event of a sale of your business or a major restructuring."
+         ],
+         "what_it_means_for_you":"You cannot easily transfer your contractual obligations or rights to another entity without the Commission's explicit consent. This is a standard clause, but it means you must plan carefully for any potential business changes that might involve assignment.",
+         "negotiation_tip":"While standard, if you anticipate a merger, acquisition, or significant restructuring, you might seek clarification that consent will not be unreasonably withheld for an assignment to an affiliate or successor entity with equivalent capabilities.",
+         "title":"Nonassignment",
+         "category":"OTHER",
+         "original_text":"21. NONASSIGNMENT. The CONSULTANT shall not assign the Agreement without the prior written consent of the COMMISSION."
+      },
+      {
+         "id":"clause_22",
+         "risk_level":"MEDIUM",
+         "risk_score":4,
+         "plain_english":"You promise that you didn't obtain this agreement through any illegal means, such as paying bribes, kickbacks, or other unlawful favors to any Commission employee. If you breach this promise, the Commission can, at its discretion, terminate the agreement without owing you anything, only pay you for the work actually done, or deduct the full amount of the illegal payment from your contract price, or recover it from you.",
+         "red_flags":[
+            "The consequences for breach are severe, including immediate termination without liability to the Commission and recovery of funds, which can be devastating for your business.",
+            "Even if you, as the principal, are unaware of such actions by an agent or employee, you could still be held liable for their conduct."
+         ],
+         "what_it_means_for_you":"You must ensure strict ethical conduct within your organization and among your agents. You are entirely responsible for preventing any illegal inducement to secure this contract. Any suspected violation could lead to immediate termination and significant financial penalties.",
+         "negotiation_tip":"Ensure you have a strong internal compliance program, code of conduct, and ethics training for all employees and agents. No specific negotiation tip for changing the clause itself, as it's an anti-corruption standard.",
+         "title":"Unlawful Consideration",
+         "category":"OTHER",
+         "original_text":"22. REBATES, KICKBACKS OR OTHER UNLAWFUL CONSIDERATION. The CONSULTANT warrants that this Agreement was not obtained or secured through rebates kickbacks or other unlawful consideration, either promised or paid to any COMMISSION employee. For breach or violation of this warranty, COMMISSION shall have the right in its discretion to terminate the Agreement without liability; to pay only for the value of the work actually performed; or to deduct from the contract price; or otherwise recover the full amount of such rebate, kickback or other unlawful consideration."
+      },
+      {
+         "id":"clause_23",
+         "risk_level":"LOW",
+         "risk_score":2,
+         "plain_english":"All official notices and communications about the agreement or its changes must be sent by registered or certified mail, with a return receipt requested, to the specific addresses listed for both you and the Commission.",
+         "red_flags":[
+            "Failure to use the specified method of communication (registered/certified mail) means your notice might not be legally recognized, even if the other party informally receives it."
+         ],
+         "what_it_means_for_you":"You must strictly follow these formal notification procedures for all critical communications (e.g., termination notices, dispute notices, requests for extension). Relying on email or regular mail could invalidate your communication.",
+         "negotiation_tip":"Request to add email as an acceptable, or at least supplementary, method of communication for routine notices, ensuring legal effect if proper procedures are followed (e.g., confirmed receipt). However, formal legal notices will likely still require certified mail.",
+         "title":"Notifications",
+         "category":"OTHER",
+         "original_text":"23. NOTIFICATION. All notices hereunder and communications regarding interpretation of the terms of this Agreement and changes thereto, shall be effected by the mailing thereof by registered or certified mail, return receipt requested, postage prepaid, and addressed as follows:\nCONSULTANT:\n__________(CONSULTANT)_______________\n__________(NAME)________, Project Manager\n__________(ADDRESS)____________________\nCOMMISSION:\nSanta Cruz County Regional Transportation Commission (SCCRTC)\nLuis Mendez, Contract Manager\n1523 Pacific Ave, Santa Cruz, CA 95060"
+      },
+      {
+         "id":"clause_24",
+         "risk_level":"LOW",
+         "risk_score":3,
+         "plain_english":"This clause confirms that this written document, including its attached exhibits (Scope of Services and Fee Schedule), represents the complete and final agreement between you and the Commission. It overrides any previous discussions, understandings, or communications. The Commission's Executive Director (or their designee) can act on behalf of the Commission. If any part of the agreement is found to be invalid, the rest of the agreement remains valid. If the Commission chooses not to enforce a term once, it doesn't mean they won't enforce it in the future.",
+         "red_flags":[
+            "The 'complete and exclusive statement' clause means you cannot rely on any verbal promises, emails, or informal understandings that are not explicitly written into this final agreement or its exhibits.",
+            "The 'waiver' provision (C) means the Commission retains the right to enforce any term later, even if they've previously been lenient."
+         ],
+         "what_it_means_for_you":"You must ensure that all agreements, promises, and understandings (especially those crucial to scope, cost, or timeline) are explicitly included in this written contract and its exhibits. Anything left out is likely unenforceable. You cannot assume a past leniency by the Commission will continue.",
+         "negotiation_tip":"Before signing, carefully review all exhibits (A and B) and confirm they accurately reflect all agreed-upon terms, scope, and pricing. If there are any previous written agreements or understandings you want to include, ensure they are specifically incorporated by reference into this clause or as new exhibits.",
+         "title":"Complete Agreement",
+         "category":"OTHER",
+         "original_text":"24. COMPLETE AGREEMENT\nA. AGREEMENT: The two parties to this Agreement, who are the before named CONSULTANT and the before named COMMISSION, hereby agree that this Agreement constitutes the entire Agreement which is made and concluded in duplicate between the two parties. Both of these parties for and in consideration of the payments to made, conditions mentioned, and work to be performed; each agree to diligently perform in accordance with the terms and conditions of this Agreement as evidenced by the signatures below.\nB. COMMISSION DESIGNEE: The Executive Director of COMMISSION, or his or her designee, shall have the authority to act for and exercise any of the rights of COMMISSION as set forth in this Agreement subsequent to, and in accordance with the authorization granted by the COMMISSION.\nC. COMPLETE AGREEMENT, INCLUDING ATTACHMENTS. This Agreement includes all exhibits, attachments, and documents incorporated herein and made applicable by reference, constitutes the complete and exclusive statement of the terms and conditions of the Agreement between COMMISSION and CONSULTANT, and supersedes all prior representations, understandings and communications. The invalidity in whole or in part of any term or condition of this Agreement shall not affect the validity of other terms or conditions. The COMMISSION’s waiver of CONSULTANT's performance of any term(s) or condition(s) of this Agreement shall not be construed as a waiver for any future performance of such term(s) or conditions(s\nD. Attachments are:\nExhibit A: Scope of Services\nExhibit B: Fee Schedule"
+      }
+   ]
+}
