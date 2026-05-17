@@ -154,6 +154,24 @@ Open http://localhost:3000.
 
 See [backend/sample_response.json](backend/sample_response.json) for a full example response (24 clauses).
 
+## Tests
+
+Backend has a pytest suite covering schemas, parser, analyzer pipeline (Gemini mocked), and FastAPI endpoints.
+
+```powershell
+cd backend
+pip install -r requirements-dev.txt
+pytest
+```
+
+With coverage:
+
+```powershell
+pytest --cov=services --cov=main --cov-report=term-missing
+```
+
+Tests do **not** call the real Gemini API. The analyzer is fully mocked, so the suite runs offline and burns zero quota.
+
 ## Docker
 
 ### Both services (recommended)
@@ -183,26 +201,47 @@ docker run -p 3000:3000 lexguard-frontend
 
 ## Cloud Run Deploy
 
+### One-shot script (recommended)
+
+Requires `gcloud` installed and authenticated (`gcloud auth login`). Reads `GEMINI_API_KEY` from `.env` at repo root.
+
+**Windows (PowerShell):**
+
+```powershell
+.\scripts\deploy.ps1 -ProjectId YOUR_PROJECT_ID
+```
+
+**Mac / Linux / Cloud Shell:**
+
+```bash
+./scripts/deploy.sh YOUR_PROJECT_ID
+```
+
+The script enables required APIs, builds and deploys the backend, captures the live backend URL, then builds and deploys the frontend with that URL baked in as `NEXT_PUBLIC_API_URL`.
+
+### Manual steps
+
 ```bash
 gcloud config set project YOUR_PROJECT_ID
-gcloud services enable run.googleapis.com artifactregistry.googleapis.com
+gcloud services enable run.googleapis.com cloudbuild.googleapis.com artifactregistry.googleapis.com
 
 # Backend
 gcloud builds submit ./backend --tag gcr.io/YOUR_PROJECT_ID/lexguard-backend
 gcloud run deploy lexguard-backend \
   --image gcr.io/YOUR_PROJECT_ID/lexguard-backend \
   --platform managed --region us-central1 \
-  --allow-unauthenticated --memory 512Mi \
+  --allow-unauthenticated --memory 512Mi --port 8000 \
   --set-env-vars GEMINI_API_KEY=your_key
 
-# Frontend (pass backend URL as build arg)
+# Frontend (pass backend URL as build arg via cloudbuild.yaml)
+BACKEND_URL=$(gcloud run services describe lexguard-backend --region us-central1 --format 'value(status.url)')
 gcloud builds submit ./frontend \
-  --tag gcr.io/YOUR_PROJECT_ID/lexguard-frontend \
-  --substitutions=_API_URL=https://YOUR_BACKEND_URL
+  --config ./frontend/cloudbuild.yaml \
+  --substitutions=_API_URL=$BACKEND_URL,_IMAGE=gcr.io/YOUR_PROJECT_ID/lexguard-frontend:latest
 gcloud run deploy lexguard-frontend \
   --image gcr.io/YOUR_PROJECT_ID/lexguard-frontend \
   --platform managed --region us-central1 \
-  --allow-unauthenticated
+  --allow-unauthenticated --port 3000
 ```
 
 ## Project Structure
