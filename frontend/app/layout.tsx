@@ -9,7 +9,7 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "LexGuard — Contract Risk Intelligence",
+  title: "LexGuard - Contract Risk Intelligence",
   description:
     "Upload a contract. Get a plain-English risk breakdown of every clause.",
 };
