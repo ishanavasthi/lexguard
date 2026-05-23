@@ -4,9 +4,9 @@ AI-powered contract intelligence. Upload a PDF, DOCX, or TXT legal document, get
 
 ## Live Demo
 
-- **App:** _TODO_
-- **API:** _TODO_
-- **Repo:** https://github.com/ishanavasthi/lexguard
+- **App:** [Demo Link](https://lexguard-frontend-rg3yuitgqq-uc.a.run.app/)
+- **API:** [API Status](https://lexguard-backend-rg3yuitgqq-uc.a.run.app/health)
+- **Repo:** [Repository Link](https://github.com/ishanavasthi/lexguard)
 
 Try the **"Try with a sample contract"** button on the landing page to skip the upload step.
 
